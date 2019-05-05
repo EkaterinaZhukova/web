@@ -1,0 +1,15 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+    <persistence-unit name="Test_Local" transaction-type="JTA">
+        <jta-data-source>jdbc/telephone_station</jta-data-source>
+        <class>model.Account</class>
+        <class>model.Abonent</class>
+        <class>model.Service</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.transaction.manager_lookup_class"
+                      value="org.hibernate.transaction.SunONETransactionManagerLookup"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+</persistence>

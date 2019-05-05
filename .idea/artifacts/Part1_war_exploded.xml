@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Part1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Part1_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Part1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Part1" />
+          <element id="jpa-descriptors" facet="Part1/jpa/JPA" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="postgresql-42.1.4" />
+          <element id="library" level="application" name="popper" />
+          <element id="library" level="application" name="jquery" />
+          <element id="library" level="application" name="bootstrap" />
+        </element>
+        <element id="library" level="project" name="log4j-core-2.11.2" />
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="log4j-core-2.11.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
