@@ -19,7 +19,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 public class LoginCommand implements Command {
-    final String urlPattern = "login";
+    public static final String urlPattern = "login";
 
     @Override
     public String getPattern() {
@@ -61,6 +61,7 @@ public class LoginCommand implements Command {
             } else {
                 user.setAbonent(true);
                 session.setAttribute(Parameters.userType, surName);
+                session.setAttribute(Parameters.abonent, ab);
                 user.abonentEntity = ab;
             }
         }

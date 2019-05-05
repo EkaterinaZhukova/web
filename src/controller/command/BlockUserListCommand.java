@@ -20,7 +20,7 @@ import java.util.List;
 
 public class BlockUserListCommand implements Command {
 
-    final String urlPattern = "blockList";
+    public static final String urlPattern = "blockList";
 
     @Override
     public String getPattern() {

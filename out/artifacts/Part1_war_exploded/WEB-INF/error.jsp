@@ -34,7 +34,7 @@
             <div class="col-md-12 text-center">
                 <span class="display-1 d-block">Something went wrong...(</span>
                 <div class="mb-4 lead">${error}</div>
-                <a href=href="${pageContext.request.contextPath}?command=home" class="btn btn-link">Back to Home</a>
+                <%--<a href=href="${pageContext.request.contextPath}?command=home" class="btn btn-link">Back to Home</a>--%>
             </div>
         </div>
     </div>

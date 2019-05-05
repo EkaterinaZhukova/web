@@ -19,7 +19,7 @@ import java.util.List;
 
 public class UnblockUserListCommand implements Command {
 
-    final String urlPattern = "unblockList";
+    public static final String urlPattern = "unblockList";
 
     @Override
     public String getPattern() {

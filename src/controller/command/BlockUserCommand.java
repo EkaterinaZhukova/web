@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class BlockUserCommand implements Command {
-    final String urlPattern = "block";
+    public static final String urlPattern = "block";
 
     @Override
     public String getPattern() {

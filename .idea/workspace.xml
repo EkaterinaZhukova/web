@@ -6,7 +6,23 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ae23a1f-9fb3-48f9-99f0-f2abaf37dcf3" name="Default Changelist" comment="" />
+    <list default="true" id="1ae23a1f-9fb3-48f9-99f0-f2abaf37dcf3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/controller/filter/LogingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/command/AllAbonents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/command/AllAbonents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/command/AllServiceListCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/command/AllServiceListCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/command/BlockUserCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/command/BlockUserCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/command/BlockUserListCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/command/BlockUserListCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/command/HomeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/command/HomeCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/command/LoginCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/command/LoginCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/command/LogoutCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/command/LogoutCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/command/PayServiceCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/command/PayServiceCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/command/UnblockUserCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/command/UnblockUserCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/command/UnblockUserListCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/command/UnblockUserListCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/command/YourServicesCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/command/YourServicesCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,28 +142,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
-          <entry key="jsp" value="10" />
+          <entry key="java" value="34" />
+          <entry key="jsp" value="11" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
-          <entry key="JSP" value="10" />
+          <entry key="JAVA" value="34" />
+          <entry key="JSP" value="11" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="194" />
-          <entry key="jsp" value="40" />
+          <entry key="java" value="949" />
+          <entry key="jsp" value="50" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="194" />
-          <entry key="JSP" value="40" />
+          <entry key="JAVA" value="949" />
+          <entry key="JSP" value="50" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
     </session>
@@ -155,10 +173,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp">
+        <entry file="file://$PROJECT_DIR$/src/controller/command/AllAbonents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="62">
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/filter/EncodingFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/MainServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
             </state>
           </provider>
         </entry>
@@ -166,8 +202,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/command/LoginCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="53" column="67" lean-forward="true" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
+            <state relative-caret-position="246">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,73 +212,65 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/src/model/dao/AbonentDAOBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="156">
+              <caret line="107" selection-start-line="107" selection-end-line="107" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/yourServices.jsp">
+        <entry file="file://$PROJECT_DIR$/src/controller/command/AllServiceListCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-800">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="77">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/unblockUserList.jsp">
+        <entry file="file://$PROJECT_DIR$/src/controller/command/BlockUserCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-883">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="90">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/home.jsp">
+        <entry file="file://$PROJECT_DIR$/src/controller/filter/LogingFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-980">
-              <caret line="9" column="26" selection-start-line="9" selection-end-line="10" />
+            <state relative-caret-position="84">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/error.jsp">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            <state relative-caret-position="200">
+              <caret line="42" column="193" selection-start-line="42" selection-start-column="193" selection-end-line="42" selection-end-column="193" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/loginPage.jsp">
+        <entry file="file://$PROJECT_DIR$/src/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-566">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/allServicesAvailable.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/blockUserList.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-890">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="54">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="32" />
+              <folding>
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -265,7 +293,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/errorPage.html" />
         <option value="$PROJECT_DIR$/src/exceptions/EmptyListException.java" />
         <option value="$PROJECT_DIR$/src/model/dao/ServiceDAOBean.java" />
         <option value="$PROJECT_DIR$/src/model/dao/AccountDAOBean.java" />
@@ -288,34 +315,35 @@
         <option value="$PROJECT_DIR$/src/model/Abonent_.java" />
         <option value="$PROJECT_DIR$/src/model/dao/AbonentDAO.java" />
         <option value="$PROJECT_DIR$/src/controller/MainServlet.java" />
-        <option value="$PROJECT_DIR$/src/model/User.java" />
         <option value="$PROJECT_DIR$/src/model/dao/AbonentDAOBean.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/loginPage.jsp" />
         <option value="$PROJECT_DIR$/src/model/JSPPath.java" />
         <option value="$PROJECT_DIR$/web/errorPage.html" />
         <option value="$PROJECT_DIR$/src/controller/command/Parameters.java" />
-        <option value="$PROJECT_DIR$/src/controller/command/AllAbonents.java" />
-        <option value="$PROJECT_DIR$/src/controller/command/BlockUserCommand.java" />
-        <option value="$PROJECT_DIR$/src/controller/command/BlockUserListCommand.java" />
-        <option value="$PROJECT_DIR$/src/controller/command/LogoutCommand.java" />
-        <option value="$PROJECT_DIR$/src/controller/command/PayServiceCommand.java" />
-        <option value="$PROJECT_DIR$/src/controller/command/UnblockUserCommand.java" />
-        <option value="$PROJECT_DIR$/src/controller/command/UnblockUserListCommand.java" />
         <option value="$PROJECT_DIR$/src/controller/command/Constants/Parameters.java" />
-        <option value="$PROJECT_DIR$/src/controller/command/AllServiceListCommand.java" />
         <option value="$PROJECT_DIR$/src/model/CommandURL.java" />
-        <option value="$PROJECT_DIR$/src/controller/command/YourServicesCommand.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/home.jsp" />
-        <option value="$PROJECT_DIR$/src/controller/command/HomeCommand.java" />
         <option value="$PROJECT_DIR$/src/model/ErrorsString.java" />
-        <option value="$PROJECT_DIR$/src/controller/command/LoginCommand.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/unblockUserList.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/yourServices.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/allServicesAvailable.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/blockUserList.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/error.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/controller/command/BlockUserCommand.java" />
+        <option value="$PROJECT_DIR$/src/controller/command/YourServicesCommand.java" />
+        <option value="$PROJECT_DIR$/src/controller/command/UnblockUserListCommand.java" />
+        <option value="$PROJECT_DIR$/src/controller/command/UnblockUserCommand.java" />
+        <option value="$PROJECT_DIR$/src/controller/command/PayServiceCommand.java" />
+        <option value="$PROJECT_DIR$/src/controller/command/LogoutCommand.java" />
+        <option value="$PROJECT_DIR$/src/controller/command/LoginCommand.java" />
+        <option value="$PROJECT_DIR$/src/controller/command/HomeCommand.java" />
+        <option value="$PROJECT_DIR$/src/controller/command/BlockUserListCommand.java" />
+        <option value="$PROJECT_DIR$/src/controller/command/AllAbonents.java" />
+        <option value="$PROJECT_DIR$/src/controller/command/AllServiceListCommand.java" />
+        <option value="$PROJECT_DIR$/src/controller/filter/LogingFilter.java" />
+        <option value="$PROJECT_DIR$/src/model/User.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/home.jsp" />
       </list>
     </option>
   </component>
@@ -468,6 +496,13 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Part1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Part1" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -618,18 +653,17 @@
       <workItem from="1556973910109" duration="3000" />
       <workItem from="1556974248621" duration="49000" />
       <workItem from="1557071008672" duration="68000" />
-      <workItem from="1557071266946" duration="2027000" />
+      <workItem from="1557071266946" duration="5043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54254000" />
+    <option name="totallyTimeSpent" value="57270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1653" height="943" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30167598" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30167598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -640,8 +674,8 @@
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49906892" visible="true" weight="0.36192715" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49968964" weight="0.3948296" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49906892" weight="0.36192715" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49968964" visible="true" weight="0.3948296" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -723,16 +757,40 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/model/dao/AbonentDAOBean.java</url>
-          <line>107</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/controller/command/LoginCommand.java</url>
           <line>56</line>
           <properties />
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/filter/LogingFilter.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/filter/LogingFilter.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/filter/LogingFilter.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/filter/LogingFilter.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/filter/LogingFilter.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/web/WEB-INF/js/scriptDOM.js</url>
@@ -746,13 +804,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/exceptions/NullConnectionException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exceptions/TransactionException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -845,13 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/conf/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -887,72 +931,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/BlockUserCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/UnblockUserCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/command/Constants/Parameters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/UnblockUserListCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/PayServiceCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/BlockUserListCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/AllAbonents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="51" column="52" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/YourServicesCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -977,30 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/AllServiceListCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="43" column="84" selection-start-line="43" selection-start-column="84" selection-end-line="43" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MainServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/HomeCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="39" column="149" selection-start-line="39" selection-start-column="149" selection-end-line="39" selection-end-column="149" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/ErrorsString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1008,41 +966,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/LogoutCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/dao/AccountDAOBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="785">
           <caret line="113" column="23" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/dao/AbonentDAOBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/filter/EncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/LoginCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="53" column="67" lean-forward="true" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1057,13 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1095,17 +1015,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-980">
-          <caret line="9" column="26" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/error.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/YourServicesCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/UnblockUserListCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/UnblockUserCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/PayServiceCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/LogoutCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/HomeCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/BlockUserListCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/AllAbonents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/AllServiceListCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/BlockUserCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/filter/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/dao/AbonentDAOBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/MainServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/LoginCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/filter/LogingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="32" />
+          <folding>
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="42" column="193" selection-start-line="42" selection-start-column="193" selection-end-line="42" selection-end-column="193" />
         </state>
       </provider>
     </entry>

@@ -18,7 +18,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 public class HomeCommand implements Command {
-    final String urlPattern = "home";
+    public static final String urlPattern = "home";
 
     @Override
     public String getPattern() {

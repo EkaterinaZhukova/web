@@ -20,7 +20,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class PayServiceCommand implements Command {
-    final String urlPattern = "payService";
+    public static final String urlPattern = "payService";
 
     @Override
     public String getPattern() {

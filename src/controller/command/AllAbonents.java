@@ -19,7 +19,7 @@ import java.util.List;
 
 public class AllAbonents implements Command {
 
-    final String urlPattern = "allAbonents";
+    public static final String urlPattern = "allAbonents";
 
     @Override
     public String getPattern() {

@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.lang.reflect.Parameter;
 
 public class UnblockUserCommand  implements Command {
-    final String urlPattern = "unblock";
+    public static final String urlPattern = "unblock";
 
     @Override
     public String getPattern() {

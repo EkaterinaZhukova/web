@@ -7,7 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page errorPage="../errorPage.html" %>
+<%@ page errorPage="error.jsp" %>
 
 <head>
     <title>Bootstrap 4 Website Example</title>

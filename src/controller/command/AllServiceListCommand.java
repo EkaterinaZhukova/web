@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class AllServiceListCommand implements Command {
-    final String urlPattern = "allServicesAvailable";
+    public static final String urlPattern = "allServicesAvailable";
 
     @Override
     public String getPattern() {

@@ -14,7 +14,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 public class LogoutCommand implements Command {
-    private final String urlPattern = "logout";
+    public static final String urlPattern = "logout";
 
     public LogoutCommand() {
     }

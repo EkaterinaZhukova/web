@@ -20,7 +20,7 @@ import java.lang.reflect.Parameter;
 import java.util.List;
 
 public class YourServicesCommand implements Command {
-    final String urlPattern = "yourServices";
+    public static final String urlPattern = "yourServices";
 
     @Override
     public String getPattern() {
