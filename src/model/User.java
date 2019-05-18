@@ -13,6 +13,11 @@ public class User {
         return admin;
     }
 
+    public User() {
+        admin = false;
+        guest = false;
+        admin = false;
+    }
     public Boolean isAbonent() {
         return abonent;
     }

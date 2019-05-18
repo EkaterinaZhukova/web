@@ -1,5 +1,6 @@
 package model.dao;
 
+import exceptions.DAOException;
 import model.Abonent;
 
 import javax.ejb.Remote;
@@ -14,4 +15,5 @@ public interface AbonentDAO {
     Abonent getUserWithName(String name, String surname);
     Abonent getUserWithSurname(String surname, String phone);
     void  blockUser(Abonent user,Boolean block) ;
-}
+    void createObject(Object obj) throws DAOException;
+    }

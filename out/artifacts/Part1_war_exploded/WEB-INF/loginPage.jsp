@@ -55,6 +55,8 @@
         <button type="submit" class="btn btn-primary">
             Login
         </button>
+        <a href="${pageContext.request.contextPath}?command=registration">
+            Or click here to register</a>
     </form>
 </div>
 

@@ -1,5 +1,6 @@
 package model.dao;
 
+import exceptions.DAOException;
 import model.Abonent;
 import model.Abonent_;
 import model.dao.AbonentDAO;
@@ -136,5 +137,16 @@ public class AbonentDAOBean implements AbonentDAO {
             ex.printStackTrace();
             logger.error(ex.getMessage());
         }
+    }
+
+    public void createObject(Object obj) throws DAOException{
+        try {
+            utx.begin();
+            manager.persist(obj);
+            utx.commit();
+        } catch (Exception e) {
+            throw new DAOException("Can't create object" + obj.toString());
+        }
+
     }
 }

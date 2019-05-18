@@ -1,5 +1,6 @@
 package model.dao;
 
+import exceptions.DAOException;
 import model.Abonent;
 import model.Account;
 import model.Service;
@@ -16,5 +17,6 @@ public interface AccountDAO {
     double getBalanceFor(Abonent user);
     Account getAccount(Abonent user, int id);
     void payForUser(Abonent abonent,Service sv);
-
+    List<Account> getAll();
+    void createObject(Object obj) throws DAOException;
 }

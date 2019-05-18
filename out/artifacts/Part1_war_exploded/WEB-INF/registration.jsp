@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: ekaterina
-  Date: 4/29/19
-  Time: 12:25 AM
+  Date: 5/17/19
+  Time: 23:05
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -28,35 +28,48 @@
 <body>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">Main Page</a>
+    <a class="navbar-brand" href="${pageContext.request.contextPath}?command=home">Main Page</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="">Login Page</a>
+                <a class="nav-link" href="${pageContext.request.contextPath}?command=login">Login Page</a>
             </li>
         </ul>
     </div>
 </nav>
 
 <div class="container" style="margin-top:30px">
-    <form action="${pageContext.request.contextPath}?command=login" name="clientsServices" id="clientsServices" method="post">
-            <div class="form-group">
-                <label for="surname">Surname</label>
-                <input type="text" class="form-control" id="surname" name="surname"  placeholder="Ivanov">
+    <form action="${pageContext.request.contextPath}?command=registration" method="post">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name"  placeholder="Ivan">
+        </div>
+        <div class="form-group">
+            <label for="surname">Surname</label>
+            <input type="text" class="form-control" id="surname" name="surname"  placeholder="Ivanov">
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" class="form-control" id="phone" name="phone" placeholder="+375291745656">
+        </div>
+        <c:forEach items="${services}" var="service">
+
+
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" name = "servicesCheckbox" value=${service.getName()} id=${service.getId()}>
+                <label class="custom-control-label" for=${service.getId()}>${service.getName()}
+                </label>
             </div>
-            <div class="form-group">
-                <label for="phone">Phone</label>
-                <input type="text" class="form-control" id="phone" name="phone" placeholder="375291745656">
-            </div>
+        </c:forEach>
 
         <button type="submit" class="btn btn-primary">
-            Login
+            Register
         </button>
-        <a href="${pageContext.request.contextPath}?command=registration">
-            Or click here to register</a>
+        <p>
+            ${registrationError}</p>
     </form>
 </div>
 

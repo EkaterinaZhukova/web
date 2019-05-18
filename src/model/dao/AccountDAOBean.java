@@ -1,5 +1,6 @@
 package model.dao;
 
+import exceptions.DAOException;
 import model.*;
 
 import javax.annotation.Resource;
@@ -175,5 +176,35 @@ public class AccountDAOBean implements AccountDAO {
         }
     }
 
+
+    public void createObject(Object obj) throws DAOException {
+        try {
+            utx.begin();
+            manager.persist(obj);
+            utx.commit();
+        } catch (Exception e) {
+            throw new DAOException("Can't create object" + obj.toString());
+        }
+
+    }
+
+    public List<Account> getAll() {
+        List accounts = null;
+        try {
+            CriteriaBuilder criteriaBuilder = manager.getCriteriaBuilder();
+            CriteriaQuery criteriaQuery = criteriaBuilder.createQuery(Account.class);
+            Root ab = criteriaQuery.from(Account.class);
+
+            accounts = manager.createQuery(criteriaQuery)
+                    .getResultList();
+            logger.info("getAll method succeed!");
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            logger.error(e.getMessage());
+
+        }
+        return accounts;
+    }
 
 }

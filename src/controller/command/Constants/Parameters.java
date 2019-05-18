@@ -14,6 +14,7 @@ public class Parameters {
     public static final String adminPassword = "11111";
     public static final String id = "id";
     public static final String userServices = "yourServices";
+    public static final String registrationError = "registrationError";
 
 
 
