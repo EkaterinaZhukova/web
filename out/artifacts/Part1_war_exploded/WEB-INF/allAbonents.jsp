@@ -1,13 +1,16 @@
 <%--
   Created by IntelliJ IDEA.
   User: ekaterina
-  Date: 4/22/19
+  Date: 4/19/19
   Time: 11:47 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page errorPage="error.jsp" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="table" uri="/WEB-INF/tld/AbonentTableTag" %>
+
 
 <html>
 <head>
@@ -44,40 +47,7 @@
 
 <div class="container" style="margin-top:30px">
     <h1 class="display-4">Get list of all abonents</h1>
-
-<table class="table">
-    <thead>
-    <tr>
-        <th scope="col">ID</th>
-        <th scope="col">Name</th>
-        <th scope="col">Surname</th>
-        <th scope="col">Phone</th>
-        <th scope="col">Is blocked?</th>
-        <th scope="col">Balance</th>
-        <th scope="col">Services list</th>
-    </tr>
-    </thead>
-    <tbody>
-    <c:forEach items="${abonents}" var="abonent">
-        <tr>
-            <td>${abonent.getId()}</td>
-            <td>${abonent.getName()}</td>
-            <td>${abonent.getSurname()}</td>
-            <td>${abonent.getPhone()}</td>
-            <c:if test="${abonent.isBlocked() == 1}">
-                <td>Yes</td>
-            </c:if>
-            <c:if test="${abonent.isBlocked() == 0}">
-                <td>No</td>
-            </c:if>
-            <td>$${abonent.getBalance()}</td>
-            <td>
-                <a href="${pageContext.request.contextPath}?command=yourServices&name=${abonent.getName()}&surname=${abonent.getSurname()}">Get services list</a>
-            </td>
-        </tr>
-    </c:forEach>
-    </tbody>
-</table>
+    <table:abonentsTable abonents="${abonents}"/>
 </div>
 </body>
 </html>

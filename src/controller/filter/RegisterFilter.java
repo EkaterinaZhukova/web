@@ -53,6 +53,9 @@ public class RegisterFilter implements Filter {
                 }
 
             }
+            else {
+                filterChain.doFilter(req, res);
+            }
         } else {
             filterChain.doFilter(req, res);
         }
