@@ -35,13 +35,20 @@ public class AbonentTableTag extends TagSupport {
         String context = ((HttpServletRequest)pageContext.getRequest()).getContextPath();
         for (AbonentWithBalance ab : abonents) {
             String blocked = (ab.isBlocked() == 1) ? "YES" : "NO";
+            int val = ab.isBlocked();
+            if (val > 0) {
+                blocked = "Yes";
+            }
+            else {
+                blocked = "No";
+            }
             table += "<tr>\n" +
                     "<td>" + ab.getId() + "</td>\n" +
                     "<td>" + ab.getName() + "</td>\n" +
                     "<td>" + ab.getSurname() + "</td>\n" +
                     "<td>" + ab.getPhone() + "</td>\n" +
                     "<td>" + blocked + "</td>\n" +
-                    "<td>" + ab.getBalance() + "</td>\n" +
+                    "<td>" +"$"+ ab.getBalance() + "</td>\n" +
                     "<td>" + "<a href= " + context + CommandURL.pay(ab.getName(), ab.getSurname()) + ">Get services list</a>\n" + "</td>\n";
         }
         table += "  </tbody>\n" +

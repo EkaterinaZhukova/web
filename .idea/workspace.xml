@@ -7,24 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ae23a1f-9fb3-48f9-99f0-f2abaf37dcf3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controller/command/tag/AbonentTableTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tld/AbonentTableTag.tld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/allAbonents.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/allAbonents.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/allServicesAvailable.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/allServicesAvailable.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/blockUserList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/blockUserList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/model/dao/AbonentDAOBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/model/dao/AbonentDAOBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/model/dao/AccountDAOBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/model/dao/AccountDAOBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/loginPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/loginPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/registration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/unblockUserList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/unblockUserList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/yourServices.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/yourServices.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Part1/model/dao/AbonentDAOBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/model/dao/AbonentDAOBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Part1/model/dao/AccountDAOBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/model/dao/AccountDAOBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/filter/RegisterFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/filter/RegisterFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/command/tag/AbonentTableTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/command/tag/AbonentTableTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Abonent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Abonent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,7 +129,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="66" />
+          <entry key="java" value="70" />
           <entry key="jsp" value="25" />
           <entry key="tld" value="1" />
           <entry key="xml" value="4" />
@@ -153,14 +137,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="66" />
+          <entry key="JAVA" value="70" />
           <entry key="JSP" value="25" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2645" />
+          <entry key="java" value="2737" />
           <entry key="jsp" value="136" />
           <entry key="tld" value="53" />
           <entry key="xml" value="12" />
@@ -168,7 +152,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2645" />
+          <entry key="JAVA" value="2737" />
           <entry key="JSP" value="136" />
           <entry key="XML" value="65" />
         </counts>
@@ -180,8 +164,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controller/command/tag/AbonentTableTag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+            <state relative-caret-position="259">
+              <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#400#401#0" expanded="true" />
@@ -192,10 +176,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/command/Constants/Parameters.java">
+        <entry file="file://$PROJECT_DIR$/src/model/Abonent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="69" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="69" />
+            <state relative-caret-position="250">
+              <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+              <folding>
+                <element signature="e#1466#1467#0" expanded="true" />
+                <element signature="e#1496#1497#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/AbonentWithBalance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -228,22 +225,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/command/RegistrationCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/filter/LogingFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+            <state relative-caret-position="250">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -254,8 +239,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/filter/RegisterFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="133">
               <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/command/LoginCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -295,7 +292,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/exceptions/EmptyServiceListException.java" />
         <option value="$PROJECT_DIR$/src/exceptions/JDBCException.java" />
         <option value="$PROJECT_DIR$/src/exceptions/NotFoundAbonentException.java" />
         <option value="$PROJECT_DIR$/src/exceptions/NotFoundServiceException.java" />
@@ -345,6 +341,7 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp" />
         <option value="$PROJECT_DIR$/src/controller/filter/LogingFilter.java" />
         <option value="$PROJECT_DIR$/src/model/CommandURL.java" />
+        <option value="$PROJECT_DIR$/src/model/Abonent.java" />
         <option value="$PROJECT_DIR$/src/controller/command/tag/AbonentTableTag.java" />
       </list>
     </option>
@@ -529,7 +526,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558211159036" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558212437853" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -664,12 +661,12 @@
       <workItem from="1556974248621" duration="49000" />
       <workItem from="1557071008672" duration="68000" />
       <workItem from="1557071266946" duration="5043000" />
-      <workItem from="1558205905770" duration="4934000" />
+      <workItem from="1558205905770" duration="6374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72660000" />
+    <option name="totallyTimeSpent" value="74100000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -850,15 +847,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/controller/command/tag/AbonentTableTag.java</url>
-          <line>35</line>
+          <line>38</line>
           <properties />
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/controller/command/tag/AbonentTableTag.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="51" />
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint type="javascript">
           <url>file://$PROJECT_DIR$/web/WEB-INF/js/scriptDOM.js</url>
@@ -891,13 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Abonent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1111,27 +1095,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/AbonentWithBalance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" selection-start-line="18" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/command/HomeCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/LoginCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1159,16 +1126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/filter/LogingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/command/RegistrationCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="657">
@@ -1179,27 +1136,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/filter/RegisterFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/CommandURL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/Constants/Parameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="69" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -1220,13 +1160,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/AllAbonents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld/AbonentTableTag.tld">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1234,10 +1167,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/LoginCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/Constants/Parameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="69" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/filter/LogingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/filter/RegisterFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/AllAbonents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/AbonentWithBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Abonent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+          <folding>
+            <element signature="e#1466#1467#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/command/tag/AbonentTableTag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+        <state relative-caret-position="259">
+          <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#400#401#0" expanded="true" />

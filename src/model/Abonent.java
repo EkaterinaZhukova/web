@@ -46,6 +46,7 @@ public class Abonent implements Serializable {
 
     public Abonent(Abonent ab) {
         this(ab.id,ab.name,ab.surname,ab.phone);
+        this.blocked = ab.blocked;
     }
     public Abonent(int id, String name, String surname, String phone,int blocked){
         this(id,name,surname,phone);
