@@ -176,6 +176,11 @@ public class AccountDAOBean implements AccountDAO {
         }
     }
 
+    /**
+     * add object to database
+     * @param obj object to add
+     * @throws DAOException
+     */
 
     public void createObject(Object obj) throws DAOException {
         try {
@@ -188,6 +193,10 @@ public class AccountDAOBean implements AccountDAO {
 
     }
 
+    /**
+     * get all services in database
+     * @return list of services
+     */
     public List<Account> getAll() {
         List accounts = null;
         try {

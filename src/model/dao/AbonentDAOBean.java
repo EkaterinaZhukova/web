@@ -139,6 +139,12 @@ public class AbonentDAOBean implements AbonentDAO {
         }
     }
 
+    /**
+     * add new object to database
+     * @param obj
+     * @throws DAOException
+     */
+
     public void createObject(Object obj) throws DAOException{
         try {
             utx.begin();

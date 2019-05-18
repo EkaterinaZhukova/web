@@ -35,7 +35,7 @@ public class RegisterFilter implements Filter {
                 String name = req.getParameter(Parameters.name);
                 String surname = req.getParameter(Parameters.surname);
                 String phoneNumber = req.getParameter(Parameters.phone);
-                if (name.length() > 15 || surname.length() >15) {
+                if (name.length() > 15 || surname.length() > 15) {
                     req.setAttribute(Parameters.registrationError, "Length of name and surname must be less 15 symbols");
                     res.sendRedirect(req.getContextPath() + CommandURL.registration);
                 }
@@ -43,7 +43,7 @@ public class RegisterFilter implements Filter {
                     req.setAttribute(Parameters.registrationError, "Name and surname must contain only letters");
                     res.sendRedirect(req.getContextPath() + CommandURL.registration);
                 }
-                else if (phoneNumber.length() < 14 && phoneNumber.length() > 2 && !phoneNumber.matches("\\?*[0-9]+")) {
+                else if (phoneNumber.length() < 14 && phoneNumber.length() > 2 && !phoneNumber.matches("\\+?[0-9]+")) {
                         req.setAttribute(Parameters.registrationError, "Phone number must contain only '+' and numbers or only numbers");
                         res.sendRedirect(req.getContextPath() + CommandURL.registration);
                 }

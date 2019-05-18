@@ -7,34 +7,113 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ae23a1f-9fb3-48f9-99f0-f2abaf37dcf3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controller/filter/RegisterFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/MainServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/model/CommandURL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/model/CommandURL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/model/dao/AbonentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/model/dao/AbonentDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/model/dao/AbonentDAOBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/model/dao/AbonentDAOBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/model/dao/AccountDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/model/dao/AccountDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/model/dao/AccountDAOBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/model/dao/AccountDAOBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/loginPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/loginPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Part1/controller/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/controller/MainServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Part1/model/CommandURL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/model/CommandURL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Part1/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Part1/model/dao/AbonentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/model/dao/AbonentDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Part1/model/dao/AbonentDAOBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/model/dao/AbonentDAOBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Part1/model/dao/AccountDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/model/dao/AccountDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Part1/model/dao/AccountDAOBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/model/dao/AccountDAOBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MainServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/command/Constants/Parameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/command/Constants/Parameters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/filter/LogingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/filter/LogingFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/CommandURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/CommandURL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/dao/AbonentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/AbonentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/connector/DBConn.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/connector/DBConn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/connector/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/connector/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/connector/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/connector/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/connector/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/connector/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/MainServlet.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/MainServlet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/command/AllAbonents.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/command/AllAbonents.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/command/AllServiceListCommand.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/command/AllServiceListCommand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/command/BlockUserCommand.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/command/BlockUserCommand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/command/BlockUserListCommand.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/command/BlockUserListCommand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/command/Command.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/command/Command.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/command/HomeCommand.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/command/HomeCommand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/command/LoginCommand.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/command/LoginCommand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/command/LogoutCommand.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/command/LogoutCommand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/command/PayServiceCommand.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/command/PayServiceCommand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/command/UnblockUserCommand.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/command/UnblockUserCommand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/command/UnblockUserListCommand.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/command/UnblockUserListCommand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/command/YourServicesCommand.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/command/YourServicesCommand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/command/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/command/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/command/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/command/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/command/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/command/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/filter/EncodingFilter.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/filter/EncodingFilter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/filter/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/filter/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/filter/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/filter/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/filter/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/filter/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/utils/Utils.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/utils/Utils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/utils/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/utils/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/utils/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/utils/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/controller/utils/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/controller/utils/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/exceptions/DAOException.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/exceptions/DAOException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/exceptions/DBAccessException.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/exceptions/DBAccessException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/exceptions/EmptyAbonentsListException.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/exceptions/EmptyAbonentsListException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/exceptions/EmptyServiceListException.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/exceptions/EmptyServiceListException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/exceptions/JDBCException.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/exceptions/JDBCException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/exceptions/NotFoundAbonentException.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/exceptions/NotFoundAbonentException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/exceptions/NotFoundServiceException.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/exceptions/NotFoundServiceException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/exceptions/NullConnectionException.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/exceptions/NullConnectionException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/exceptions/TransactionException.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/exceptions/TransactionException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/exceptions/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/exceptions/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/exceptions/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/exceptions/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/exceptions/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/exceptions/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-17.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/Abonent.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/Abonent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/AbonentWithBalance.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/AbonentWithBalance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/Abonent_.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/Abonent_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/Account.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/Account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/Account_.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/Account_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/Service.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/Service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/Service_.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/Service_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/User.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/User.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/dao/AbonentDAO.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/dao/AbonentDAO.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/dao/AbonentDAOBean.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/dao/AbonentDAOBean.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/dao/AccountDAO.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/dao/AccountDAO.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/dao/AccountDAOBean.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/dao/AccountDAOBean.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/dao/ServiceDAO.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/dao/ServiceDAO.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/dao/ServiceDAOBean.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/dao/ServiceDAOBean.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/dao/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/dao/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/dao/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/dao/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/dao/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/dao/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/model/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/package-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/filter/RegisterFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/filter/RegisterFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Part1/controller/filter/RegisterFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/controller/filter/RegisterFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/filter/RegisterFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/filter/RegisterFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/dao/AbonentDAOBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/AbonentDAOBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/dao/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/AccountDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/dao/AccountDAOBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/AccountDAOBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/allServicesAvailable.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/allServicesAvailable.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/blockUserList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/blockUserList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/home.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/loginPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/loginPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/unblockUserList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/unblockUserList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/yourServices.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/yourServices.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -148,36 +227,36 @@
     <session id="-81914346">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="47" />
-          <entry key="jsp" value="14" />
-          <entry key="xml" value="3" />
+          <entry key="java" value="53" />
+          <entry key="jsp" value="23" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="47" />
-          <entry key="JSP" value="14" />
-          <entry key="XML" value="3" />
+          <entry key="JAVA" value="53" />
+          <entry key="JSP" value="23" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1988" />
-          <entry key="jsp" value="116" />
+          <entry key="java" value="2172" />
+          <entry key="jsp" value="118" />
           <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1988" />
-          <entry key="JSP" value="116" />
+          <entry key="JAVA" value="2172" />
+          <entry key="JSP" value="118" />
           <entry key="XML" value="12" />
         </counts>
       </usages-collector>
@@ -186,10 +265,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/MainServlet.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/loginPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-426">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="54">
+              <caret line="3" column="9" selection-start-line="3" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/registration.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/unblockUserList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/yourServices.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -206,8 +321,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/command/RegistrationCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="632">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -216,70 +331,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/filter/LogingFilter.java">
+        <entry file="file://$PROJECT_DIR$/src/model/dao/ServiceDAOBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-222">
+              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/loginPage.jsp">
+        <entry file="file://$PROJECT_DIR$/src/model/dao/AccountDAOBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="58" column="41" lean-forward="true" selection-start-line="57" selection-start-column="6" selection-end-line="58" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/registration.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="71" column="23" lean-forward="true" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+            <state relative-caret-position="354">
+              <caret line="180" column="31" selection-start-line="180" selection-start-column="31" selection-end-line="180" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/controller/filter/RegisterFilter.java">
+        <entry file="file://$PROJECT_DIR$/src/model/dao/AbonentDAOBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="48" column="17" lean-forward="true" selection-end-line="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/CommandURL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="76" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/command/Constants/Parameters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="16" column="69" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/unblockUserList.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="268">
+              <caret line="129" column="13" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -307,7 +380,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/exceptions/DAOException.java" />
         <option value="$PROJECT_DIR$/src/exceptions/DBAccessException.java" />
         <option value="$PROJECT_DIR$/src/exceptions/EmptyAbonentsListException.java" />
         <option value="$PROJECT_DIR$/src/exceptions/EmptyServiceListException.java" />
@@ -325,17 +397,10 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/js/scriptServiceForClient.js" />
         <option value="$PROJECT_DIR$/src/model/Abonent_.java" />
         <option value="$PROJECT_DIR$/src/model/dao/AbonentDAO.java" />
-        <option value="$PROJECT_DIR$/src/model/dao/AbonentDAOBean.java" />
         <option value="$PROJECT_DIR$/src/model/JSPPath.java" />
         <option value="$PROJECT_DIR$/web/errorPage.html" />
         <option value="$PROJECT_DIR$/src/controller/command/Parameters.java" />
         <option value="$PROJECT_DIR$/src/model/ErrorsString.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/unblockUserList.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/yourServices.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/allServicesAvailable.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/blockUserList.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/error.jsp" />
         <option value="$PROJECT_DIR$/src/controller/command/BlockUserCommand.java" />
         <option value="$PROJECT_DIR$/src/controller/command/YourServicesCommand.java" />
         <option value="$PROJECT_DIR$/src/controller/command/UnblockUserListCommand.java" />
@@ -347,17 +412,25 @@
         <option value="$PROJECT_DIR$/src/controller/command/BlockUserListCommand.java" />
         <option value="$PROJECT_DIR$/src/controller/command/AllAbonents.java" />
         <option value="$PROJECT_DIR$/src/controller/command/AllServiceListCommand.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/home.jsp" />
         <option value="$PROJECT_DIR$/src/controller/MainServlet.java" />
         <option value="$PROJECT_DIR$/src/model/User.java" />
         <option value="$PROJECT_DIR$/src/model/CommandURL.java" />
         <option value="$PROJECT_DIR$/src/controller/filter/LogingFilter.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/loginPage.jsp" />
         <option value="$PROJECT_DIR$/src/controller/command/Constants/Parameters.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/registration.jsp" />
         <option value="$PROJECT_DIR$/src/controller/command/RegistrationCommand.java" />
         <option value="$PROJECT_DIR$/src/controller/filter/RegisterFilter.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/loginPage.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/allServicesAvailable.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/blockUserList.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/error.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/home.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/registration.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/unblockUserList.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/yourServices.jsp" />
+        <option value="$PROJECT_DIR$/src/model/dao/AccountDAOBean.java" />
+        <option value="$PROJECT_DIR$/src/model/dao/AbonentDAOBean.java" />
       </list>
     </option>
   </component>
@@ -526,7 +599,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558197039536" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558205077075" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -665,7 +738,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65931000" />
+    <option name="totallyTimeSpent" value="67726000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -678,20 +751,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="943" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9025974" visible="true" weight="0.31135532" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.91656876" visible="true" weight="0.31135532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.097402595" side_tool="true" weight="0.31135532" />
+      <window_info id="Web" order="7" sideWeight="0.08287293" side_tool="true" weight="0.31135532" />
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49906892" weight="0.36192715" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49968964" visible="true" weight="0.45710927" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49968964" weight="0.45710927" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32902467" />
@@ -821,16 +895,22 @@
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/controller/filter/RegisterFilter.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/controller/command/RegistrationCommand.java</url>
           <line>68</line>
           <properties />
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/filter/RegisterFilter.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/filter/RegisterFilter.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint type="javascript">
           <url>file://$PROJECT_DIR$/web/WEB-INF/js/scriptDOM.js</url>
@@ -908,13 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/dao/ServiceDAOBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/style/loginStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="768">
@@ -941,41 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/allServicesAvailable.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/yourServices.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-800">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/blockUserList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-890">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1017,13 +1055,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/LogoutCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1072,13 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="54" column="21" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Part1.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1086,20 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/dao/AbonentDAOBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/dao/AccountDAOBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="113" column="7" lean-forward="true" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1121,65 +1131,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/LoginCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="64" column="40" lean-forward="true" selection-start-line="61" selection-start-column="16" selection-end-line="64" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MainServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-426">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/loginPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="58" column="41" lean-forward="true" selection-start-line="57" selection-start-column="6" selection-end-line="58" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/command/Constants/Parameters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="16" column="69" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/unblockUserList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/registration.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="71" column="23" lean-forward="true" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/filter/LogingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1190,23 +1145,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/RegistrationCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/MainServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="336">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/filter/RegisterFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/filter/RegisterFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/filter/LogingFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="48" column="17" lean-forward="true" selection-end-line="66" />
+        <state relative-caret-position="412">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/LogoutCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/LoginCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="58" column="30" lean-forward="true" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/allServicesAvailable.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/blockUserList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/loginPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="9" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/unblockUserList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/yourServices.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/RegistrationCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/dao/ServiceDAOBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-222">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/dao/AccountDAOBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="180" column="31" selection-start-line="180" selection-start-column="31" selection-end-line="180" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/dao/AbonentDAOBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="129" column="13" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
         </state>
       </provider>
     </entry>
