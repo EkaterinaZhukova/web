@@ -48,6 +48,7 @@ public class YourServicesCommand implements Command {
         String surName = request.getParameter(Parameters.surname);
 
         Abonent ab = abonentDAO.getUserWithName(name, surName);
+        ab = null;
         if (ab == null) {
             request.setAttribute(ErrorsString.error, "Abonent doesn't exist");
             throw new NotFoundAbonentException();
