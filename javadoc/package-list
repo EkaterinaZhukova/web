@@ -2,6 +2,7 @@ connector
 controller
 controller.command
 controller.command.Constants
+controller.command.tag
 controller.filter
 controller.utils
 exceptions

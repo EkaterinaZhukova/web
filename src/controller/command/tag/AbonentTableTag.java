@@ -13,6 +13,11 @@ import java.util.List;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
+/**
+ * Class-tag for creating table of all abonents list
+ * @author Ekaterina Zhukova
+ * @version 1.0
+ */
 public class AbonentTableTag extends SimpleTagSupport {
 
     private List<AbonentWithBalance> abonents;

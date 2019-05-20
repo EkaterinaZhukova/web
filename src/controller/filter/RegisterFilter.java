@@ -16,6 +16,11 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.lang.reflect.Parameter;
 
+/**
+ * Register filter class
+ * @author ekaterina
+ * @version 1.0
+ */
 @WebFilter(filterName = "registerFilter", urlPatterns = { "/*" })
 public class RegisterFilter implements Filter {
     @Override

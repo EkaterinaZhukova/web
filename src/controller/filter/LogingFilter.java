@@ -16,6 +16,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Loging filter class
+ * @author ekaterina
+ * @version 1.0
+ */
 @WebFilter(filterName = "loginFilter", urlPatterns = { "/*" })
 public class LogingFilter implements Filter {
 
