@@ -35,8 +35,8 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 text-center">
-                <span class="display-1 d-block"><fmt:message key="SomethingWentWrong"/> </span>
-                <div class="mb-4 lead">${error}</div>
+                <span class="display-4 d-block"><fmt:message key="SomethingWentWrong"/> </span>
+                <span class="display-4 d-block">${error}</span>
                 <%--<a href=href="${pageContext.request.contextPath}?command=home" class="btn btn-link">Back to Home</a>--%>
             </div>
         </div>

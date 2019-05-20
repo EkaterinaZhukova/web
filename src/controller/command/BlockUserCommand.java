@@ -4,6 +4,7 @@ import controller.command.Constants.Parameters;
 import exceptions.NotFoundAbonentException;
 import model.Abonent;
 import model.CommandURL;
+import model.ErrorsString;
 import model.Service;
 import model.dao.AbonentDAO;
 import model.dao.AccountDAO;
@@ -44,6 +45,8 @@ public class BlockUserCommand implements Command {
         Abonent ab = abonentDAO.getUserWithName(name, surname);
 
         if (ab == null) {
+            request.setAttribute(ErrorsString.error, ab.getName() + " " + ab.getSurname() + " doesn't exist\nPlease check input data");
+            response.sendError(404);
             throw new NotFoundAbonentException(ab.getName() + " " + ab.getSurname() + " doesn't exist\nPlease check input data");
         }
         abonentDAO.blockUser(ab, true);

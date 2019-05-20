@@ -4,6 +4,7 @@ import controller.command.Constants.Parameters;
 import exceptions.EmptyAbonentsListException;
 import model.Abonent;
 import model.AbonentWithBalance;
+import model.ErrorsString;
 import model.JSPPath;
 import model.dao.AbonentDAO;
 import model.dao.AccountDAO;
@@ -44,6 +45,7 @@ public class BlockUserListCommand implements Command {
 
         List<Abonent> list = abonentDAO.getAll();
         if (list.isEmpty()) {
+            request.setAttribute(ErrorsString.error, "List of abonents is empty");
             throw new EmptyAbonentsListException();
         }
         request.setAttribute(Parameters.abonentsList, list);

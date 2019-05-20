@@ -4,6 +4,7 @@ import controller.command.Constants.Parameters;
 import exceptions.NotFoundAbonentException;
 import model.Abonent;
 import model.CommandURL;
+import model.ErrorsString;
 import model.dao.AbonentDAO;
 import model.dao.AccountDAO;
 import model.dao.ServiceDAO;
@@ -43,6 +44,7 @@ public class UnblockUserCommand  implements Command {
 
         Abonent ab = abonentDAO.getUserWithName(name, surname);
         if (ab == null) {
+            request.setAttribute(ErrorsString.error, "Abonent doesn't exist");
             throw new NotFoundAbonentException();
         }
         abonentDAO.blockUser(ab, false);

@@ -63,6 +63,5 @@ public class AbonentTableTag extends SimpleTagSupport {
         } catch (IOException e) {
             throw new JspException(e.getMessage());
         }
-//        return SKIP_BODY;
     }
 }

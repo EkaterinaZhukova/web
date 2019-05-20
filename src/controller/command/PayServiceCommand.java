@@ -3,10 +3,7 @@ package controller.command;
 import controller.command.Constants.Parameters;
 import exceptions.NotFoundAbonentException;
 import exceptions.NotFoundServiceException;
-import model.Abonent;
-import model.Account;
-import model.CommandURL;
-import model.Service;
+import model.*;
 import model.dao.AbonentDAO;
 import model.dao.AccountDAO;
 import model.dao.ServiceDAO;
@@ -17,6 +14,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.lang.reflect.Parameter;
 import java.util.List;
 
 public class PayServiceCommand implements Command {
@@ -49,6 +47,7 @@ public class PayServiceCommand implements Command {
         Abonent ab = abonentDAO.getUserWithName(name, surname);
         Service sv = serviceDAO.getServiceWithId(id);
         if (sv == null) {
+            request.setAttribute(ErrorsString.error, "This service is unavailable");
             throw new NotFoundServiceException();
         }
         accoountDao.payForUser(ab, sv);

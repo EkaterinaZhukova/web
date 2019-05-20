@@ -4,6 +4,8 @@ import controller.command.Command;
 import controller.command.Constants.Parameters;
 import controller.command.RegistrationCommand;
 import model.CommandURL;
+import model.ErrorsString;
+import model.JSPPath;
 import model.User;
 
 import javax.servlet.*;
@@ -40,12 +42,12 @@ public class RegisterFilter implements Filter {
                     res.sendRedirect(req.getContextPath() + CommandURL.registration);
                 }
                 else if (!name.matches("[a-zA-Zа-яА-ЯёЁ]+") || !surname.matches("[a-zA-Zа-яА-ЯёЁ]+")) {
-                    req.setAttribute(Parameters.registrationError, "Name and surname must contain only letters");
-                    res.sendRedirect(req.getContextPath() + CommandURL.registration);
+                    req.setAttribute(ErrorsString.error, "Name and surname must contain only letters");
+                    res.sendError(404);
                 }
                 else if (phoneNumber.length() < 14 && phoneNumber.length() > 2 && !phoneNumber.matches("\\+?[0-9]+")) {
-                        req.setAttribute(Parameters.registrationError, "Phone number must contain only '+' and numbers or only numbers");
-                        res.sendRedirect(req.getContextPath() + CommandURL.registration);
+                    req.setAttribute(ErrorsString.error, "Phone number must contain only '+' and numbers or only numbers");
+                    res.sendError(404);
                 }
                 else{
                     req.setAttribute(Parameters.registrationError, null);

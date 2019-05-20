@@ -16,6 +16,4 @@ public class Parameters {
     public static final String userServices = "yourServices";
     public static final String registrationError = "registrationError";
 
-
-
 }

@@ -4,6 +4,7 @@ import controller.command.Constants.Parameters;
 import exceptions.EmptyServiceListException;
 import exceptions.NotFoundAbonentException;
 import model.Abonent;
+import model.ErrorsString;
 import model.JSPPath;
 import model.Service;
 import model.dao.AbonentDAO;
@@ -48,6 +49,7 @@ public class YourServicesCommand implements Command {
 
         Abonent ab = abonentDAO.getUserWithName(name, surName);
         if (ab == null) {
+            request.setAttribute(ErrorsString.error, "Abonent doesn't exist");
             throw new NotFoundAbonentException();
         }
         answer = accoountDao.getServicesByUser(ab);

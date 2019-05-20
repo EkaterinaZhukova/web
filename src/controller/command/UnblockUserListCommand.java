@@ -2,7 +2,9 @@ package controller.command;
 
 import controller.command.Constants.Parameters;
 import exceptions.EmptyAbonentsListException;
+import exceptions.EmptyServiceListException;
 import model.Abonent;
+import model.ErrorsString;
 import model.JSPPath;
 import model.dao.AbonentDAO;
 import model.dao.AccountDAO;
@@ -43,6 +45,7 @@ public class UnblockUserListCommand implements Command {
 
         List<Abonent> list = abonentDAO.getAll();
         if (list.isEmpty()) {
+            request.setAttribute(ErrorsString.error, "Empty service list");
             throw new EmptyAbonentsListException();
         }
         request.setAttribute(Parameters.abonentsList, list);
