@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page errorPage="error.jsp" %>
 
 
@@ -30,30 +31,30 @@
 <body>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">Main Page</a>
+    <a class="navbar-brand" href="${pageContext.request.contextPath}?command=home"><fmt:message key="MainMenu"/> </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="${pageContext.request.contextPath}?command=home">Get back</a>
+                <a class="nav-link" href="${pageContext.request.contextPath}?command=home"><fmt:message key="GetBack"/> </a>
             </li>
         </ul>
     </div>
 </nav>
 
 <div class="container" style="margin-top:30px">
-    <h1 class="display-4">Get services for client ${abonent.getName()} ${abonent.getSurname()}</h1>
+    <h1 class="display-4"><fmt:message key="GetServicesForClient"/> ${abonent.getName()} ${abonent.getSurname()}</h1>
 
 
     <table class="table">
         <thead>
         <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Name</th>
-            <th scope="col">Price</th>
-            <th scope="col">Pay</th>
+            <th scope="col"><fmt:message key="ID"/> </th>
+            <th scope="col"><fmt:message key="Name"/></th>
+            <th scope="col"><fmt:message key="Price"/></th>
+            <th scope="col"><fmt:message key="Pay"/></th>
         </tr>
         </thead>
         <tbody>
@@ -63,7 +64,7 @@
                 <td>${service.getName()}</td>
                 <td>$${service.getPrice()}</td>
                 <td>
-                    <a href="${pageContext.request.contextPath}?command=payService&id=${service.getId()}&name=${abonent.getName()}&surname=${abonent.getSurname()}">Click to pay</a>
+                    <a href="${pageContext.request.contextPath}?command=payService&id=${service.getId()}&name=${abonent.getName()}&surname=${abonent.getSurname()}"><fmt:message key="ClickToPay"/> </a>
                 </td>
             </tr>
         </c:forEach>

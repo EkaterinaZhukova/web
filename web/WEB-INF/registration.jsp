@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 <html>
 <head>
@@ -28,14 +29,14 @@
 <body>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="${pageContext.request.contextPath}?command=home">Main Page</a>
+    <a class="navbar-brand" href="${pageContext.request.contextPath}?command=home"><fmt:message key="MainMenu"/> </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="${pageContext.request.contextPath}?command=login">Login Page</a>
+                <a class="nav-link" href="${pageContext.request.contextPath}?command=login"><fmt:message key="GetBack"/> </a>
             </li>
         </ul>
     </div>
@@ -44,15 +45,15 @@
 <div class="container" style="margin-top:30px">
     <form action="${pageContext.request.contextPath}?command=registration" method="post">
         <div class="form-group">
-            <label for="name">Name</label>
+            <label for="name"><fmt:message key="Name"/></label>
             <input type="text" class="form-control" id="name" name="name"  placeholder="Ivan">
         </div>
         <div class="form-group">
-            <label for="surname">Surname</label>
+            <label for="surname"><fmt:message key="Surname"/> </label>
             <input type="text" class="form-control" id="surname" name="surname"  placeholder="Ivanov">
         </div>
         <div class="form-group">
-            <label for="phone">Phone</label>
+            <label for="phone"><fmt:message key="Phone"/> </label>
             <input type="text" class="form-control" id="phone" name="phone" placeholder="+375291745656">
         </div>
         <c:forEach items="${services}" var="service">
@@ -66,7 +67,7 @@
         </c:forEach>
 
         <button type="submit" class="btn btn-primary">
-            Register
+            <fmt:message key="Register"/>
         </button>
         <p>
             ${registrationError}</p>

@@ -7,7 +7,11 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<fmt:setLocale value="${lang}"/>
+<fmt:setBundle basename="controller.resources.locale"/>
+<!DOCTYPE html>
+<html lang="${lang}">
 <html>
 <head>
     <title>Bootstrap 4 Website Example</title>
@@ -28,14 +32,14 @@
 <body>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">Main Page</a>
+    <a class="navbar-brand" href="${pageContext.request.contextPath}?command=home"><fmt:message key="MainMenu"/> </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="">Login Page</a>
+                <a class="nav-link" href=""><fmt:message key="LoginPage"/> </a>
             </li>
         </ul>
     </div>
@@ -44,19 +48,19 @@
 <div class="container" style="margin-top:30px">
     <form action="${pageContext.request.contextPath}?command=login" name="clientsServices" id="clientsServices" method="post">
             <div class="form-group">
-                <label for="surname">Surname</label>
+                <label for="surname"><fmt:message key="Surname"/> </label>
                 <input type="text" class="form-control" id="surname" name="surname"  placeholder="Ivanov">
             </div>
             <div class="form-group">
-                <label for="phone">Phone</label>
-                <input type="text" class="form-control" id="phone" name="phone" placeholder="375291745656">
+                <label for="phone"><fmt:message key="Phone"/> </label>
+                <input type="text" class="form-control" id="phone" name="phone" placeholder="+375291745656">
             </div>
 
         <button type="submit" class="btn btn-primary">
-            Login
+            <fmt:message key="Login"/>
         </button>
         <a href="${pageContext.request.contextPath}?command=registration">
-            Or click here to register</a>
+            <fmt:message key="OrClickHereToRegister"/> </a>
     </form>
 </div>
 

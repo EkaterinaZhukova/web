@@ -41,7 +41,7 @@ public class LogingFilter implements Filter {
         String command = request.getParameter("command");
         User user = (User) session.getAttribute("user");
 
-        if (user == null && !(command == null || command.equals("registration") || command.equals("home") || command.equals("login") || command.equals("allServicesAvailable"))) {
+        if (user == null && !(command == null || command.equals("registration") || command.equals("home") || command.equals("login") || command.equals("allServicesAvailable") || command.equals("chooseLanguage"))) {
             res.sendRedirect(req.getContextPath() + "/servlet");
         }
         else if (user != null && user.isAbonent() && !abonentHaveAccessRight(command)){

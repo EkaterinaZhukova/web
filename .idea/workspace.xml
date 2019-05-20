@@ -7,8 +7,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ae23a1f-9fb3-48f9-99f0-f2abaf37dcf3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/command/ChooseLanguageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/filter/LanguageFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/resources/locale.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/resources/locale_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/resources/locale_ru.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/chooseLangusge.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/allAbonents.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/allAbonents.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/allServicesAvailable.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/allServicesAvailable.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/blockUserList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/blockUserList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/MainServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/command/tag/AbonentTableTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/command/tag/AbonentTableTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/filter/LogingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/filter/LogingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/loginPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/loginPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/unblockUserList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/unblockUserList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/yourServices.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/yourServices.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Part1/controller/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/controller/MainServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Part1/controller/command/tag/AbonentTableTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/controller/command/tag/AbonentTableTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Part1/controller/filter/LogingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/controller/filter/LogingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MainServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/command/tag/AbonentTableTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/command/tag/AbonentTableTag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Abonent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Abonent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/filter/LogingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/filter/LogingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/allServicesAvailable.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/allServicesAvailable.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/blockUserList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/blockUserList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/loginPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/loginPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/unblockUserList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/unblockUserList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/yourServices.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/yourServices.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,95 +157,113 @@
     <session id="-81914346">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="4" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="70" />
-          <entry key="jsp" value="25" />
-          <entry key="tld" value="1" />
-          <entry key="xml" value="4" />
+          <entry key="class" value="2" />
+          <entry key="java" value="89" />
+          <entry key="jsp" value="44" />
+          <entry key="locale" value="4" />
+          <entry key="properties" value="10" />
+          <entry key="tld" value="3" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="70" />
-          <entry key="JSP" value="25" />
-          <entry key="XML" value="5" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="89" />
+          <entry key="JSP" value="44" />
+          <entry key="Properties" value="10" />
+          <entry key="ResourceBundle" value="4" />
+          <entry key="XML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2737" />
-          <entry key="jsp" value="136" />
+          <entry key="java" value="3255" />
+          <entry key="jsp" value="1175" />
           <entry key="tld" value="53" />
-          <entry key="xml" value="12" />
+          <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2737" />
-          <entry key="JSP" value="136" />
-          <entry key="XML" value="65" />
+          <entry key="JAVA" value="3255" />
+          <entry key="JSP" value="1175" />
+          <entry key="XML" value="66" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/command/tag/AbonentTableTag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+            <state relative-caret-position="336">
+              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Abonent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-              <folding>
-                <element signature="e#1466#1467#0" expanded="true" />
-                <element signature="e#1496#1497#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/src/controller/resources/locale.properties">
+          <provider selected="true" editor-type-id="ResourceBundle" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/AbonentWithBalance.java">
+        <entry file="file://$PROJECT_DIR$/src/controller/command/HomeCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state relative-caret-position="419">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/CommandURL.java">
+        <entry file="file://$PROJECT_DIR$/src/controller/command/ChooseLanguageCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="275">
+              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/chooseLangusge.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="42" column="119" selection-start-line="42" selection-start-column="119" selection-end-line="42" selection-end-column="119" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/JSPPath.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            <state relative-caret-position="198">
+              <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -218,53 +271,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/command/AllAbonents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="284">
+              <caret line="52" column="86" selection-start-line="52" selection-start-column="86" selection-end-line="52" selection-end-column="86" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/filter/LogingFilter.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/blockUserList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-450">
+              <caret line="13" column="52" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/filter/RegisterFilter.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="273">
+              <caret line="33" selection-start-line="18" selection-start-column="6" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/command/LoginCommand.java">
+        <entry file="jar://$PROJECT_DIR$/lib/lib/javax.servlet.jar!/javax/servlet/http/HttpServlet.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld/AbonentTableTag.tld">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="124">
+              <caret line="257" column="16" selection-start-line="257" selection-start-column="16" selection-end-line="257" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -276,8 +311,8 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -289,15 +324,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/exceptions/JDBCException.java" />
-        <option value="$PROJECT_DIR$/src/exceptions/NotFoundAbonentException.java" />
-        <option value="$PROJECT_DIR$/src/exceptions/NotFoundServiceException.java" />
-        <option value="$PROJECT_DIR$/src/exceptions/NullConnectionException.java" />
-        <option value="$PROJECT_DIR$/src/exceptions/TransactionException.java" />
-        <option value="$PROJECT_DIR$/src/model/AbonentWithBalance.java" />
         <option value="$PROJECT_DIR$/src/controller/filter/EncodingFilter.java" />
         <option value="$PROJECT_DIR$/src/controller/utils/Utils.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/ex.html" />
@@ -317,32 +349,38 @@
         <option value="$PROJECT_DIR$/src/controller/command/PayServiceCommand.java" />
         <option value="$PROJECT_DIR$/src/controller/command/LogoutCommand.java" />
         <option value="$PROJECT_DIR$/src/controller/command/LoginCommand.java" />
-        <option value="$PROJECT_DIR$/src/controller/command/HomeCommand.java" />
         <option value="$PROJECT_DIR$/src/controller/command/BlockUserListCommand.java" />
-        <option value="$PROJECT_DIR$/src/controller/command/AllAbonents.java" />
         <option value="$PROJECT_DIR$/src/controller/command/AllServiceListCommand.java" />
-        <option value="$PROJECT_DIR$/src/controller/MainServlet.java" />
         <option value="$PROJECT_DIR$/src/model/User.java" />
         <option value="$PROJECT_DIR$/src/controller/command/Constants/Parameters.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/controller/command/RegistrationCommand.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/loginPage.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/allServicesAvailable.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/blockUserList.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/error.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/home.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/registration.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/unblockUserList.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/yourServices.jsp" />
         <option value="$PROJECT_DIR$/src/model/dao/AccountDAOBean.java" />
         <option value="$PROJECT_DIR$/src/model/dao/AbonentDAOBean.java" />
         <option value="$PROJECT_DIR$/src/controller/filter/RegisterFilter.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/tld/AbonentTableTag.tld" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp" />
-        <option value="$PROJECT_DIR$/src/controller/filter/LogingFilter.java" />
         <option value="$PROJECT_DIR$/src/model/CommandURL.java" />
         <option value="$PROJECT_DIR$/src/model/Abonent.java" />
+        <option value="$PROJECT_DIR$/src/controller/resources/locale_ru.properties" />
+        <option value="$PROJECT_DIR$/src/controller/filter/LanguageFilter.java" />
+        <option value="$PROJECT_DIR$/src/controller/MainServlet.java" />
+        <option value="$PROJECT_DIR$/src/controller/command/ChooseLanguageCommand.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/controller/filter/LogingFilter.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/error.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/registration.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/allServicesAvailable.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/home.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/loginPage.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/yourServices.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/unblockUserList.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/blockUserList.jsp" />
+        <option value="$PROJECT_DIR$/src/controller/tag/AbonentTableTag.java" />
+        <option value="$PROJECT_DIR$/src/controller/command/HomeCommand.java" />
+        <option value="$PROJECT_DIR$/src/controller/resources/locale.properties" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp" />
+        <option value="$PROJECT_DIR$/src/controller/command/AllAbonents.java" />
         <option value="$PROJECT_DIR$/src/controller/command/tag/AbonentTableTag.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/chooseLangusge.jsp" />
       </list>
     </option>
   </component>
@@ -359,9 +397,15 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1653" />
+    <option name="width" value="1680" />
     <option name="height" value="943" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -399,9 +443,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -418,18 +459,6 @@
               <item name="Part1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Part1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Part1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Part1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="connector" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Part1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Part1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -438,14 +467,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Part1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Part1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-              <item name="Constants" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Part1" type="b2602c69:ProjectViewProjectNode" />
@@ -467,13 +488,7 @@
               <item name="Part1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Part1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Part1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Part1" type="b2602c69:ProjectViewProjectNode" />
@@ -516,6 +531,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -526,7 +544,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558212437853" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558360890729" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -536,6 +554,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2866324" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -634,6 +653,9 @@
       </method>
     </configuration>
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",GROUP_BY_PREFIXES" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -661,12 +683,18 @@
       <workItem from="1556974248621" duration="49000" />
       <workItem from="1557071008672" duration="68000" />
       <workItem from="1557071266946" duration="5043000" />
-      <workItem from="1558205905770" duration="6374000" />
+      <workItem from="1558205905770" duration="11708000" />
+      <workItem from="1558217898968" duration="365000" />
+      <workItem from="1558224660011" duration="292000" />
+      <workItem from="1558266060300" duration="6995000" />
+      <workItem from="1558303847015" duration="136000" />
+      <workItem from="1558304028831" duration="1343000" />
+      <workItem from="1558358100136" duration="2775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74100000" />
+    <option name="totallyTimeSpent" value="91340000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -678,9 +706,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1653" height="943" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="943" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.91656876" visible="true" weight="0.31533208" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6445672" visible="true" weight="0.33211234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -688,7 +717,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" sideWeight="0.08287293" side_tool="true" weight="0.31135532" />
-      <window_info id="Persistence" order="8" side_tool="true" />
+      <window_info id="Persistence" order="8" sideWeight="0.35543278" side_tool="true" weight="0.31533208" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49906892" visible="true" weight="0.36192715" />
@@ -706,11 +735,11 @@
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3298122" />
       <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.32902467" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24953446" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32960895" />
       <window_info anchor="right" id="Database" order="6" weight="0.16387337" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -798,12 +827,6 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/controller/command/LoginCommand.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/controller/command/RegistrationCommand.java</url>
           <line>83</line>
           <properties />
@@ -814,42 +837,6 @@
           <line>68</line>
           <properties />
           <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/controller/filter/RegisterFilter.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/controller/filter/RegisterFilter.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/controller/filter/RegisterFilter.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/controller/filter/LogingFilter.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/controller/command/AllAbonents.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/controller/command/tag/AbonentTableTag.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint type="javascript">
           <url>file://$PROJECT_DIR$/web/WEB-INF/js/scriptDOM.js</url>
@@ -862,51 +849,11 @@
       </breakpoints-dialog>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/ex.html" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/js/scriptDOM.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/js/scriptServiceForClient.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Abonent_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/conf/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/style/loginStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="262" selection-start-line="262" selection-end-line="262" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/errorPage.html" />
     <entry file="file://$PROJECT_DIR$/src/controller/utils/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -962,13 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/BlockUserListCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/command/BlockUserCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1004,10 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1015,48 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/allServicesAvailable.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/blockUserList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/yourServices.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1078,51 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="129" column="13" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/unblockUserList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/registration.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/HomeCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/loginPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-764">
-          <caret line="3" column="9" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MainServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="91" column="51" lean-forward="true" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1160,54 +1009,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld/AbonentTableTag.tld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/LoginCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/command/Constants/Parameters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="69" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/filter/LogingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/filter/RegisterFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/AllAbonents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
@@ -1229,21 +1034,229 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/tag/AbonentTableTag.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/resources/locale_en.properties">
+      <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/resources/locale_ru.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/BlockUserListCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="29" selection-start-line="29" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="69" column="41" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/yourServices.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/loginPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="81" selection-start-line="34" selection-start-column="81" selection-end-line="34" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/filter/LogingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/filter/RegisterFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/unblockUserList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="82" column="6" selection-start-line="48" selection-end-line="82" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld/AbonentTableTag.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lib/javax.servlet.jsp.jar!/javax/servlet/jsp/PageContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/LoginCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/allServicesAvailable.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="70" selection-start-line="31" selection-start-column="6" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/filter/LanguageFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="28" column="85" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/MainServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lib/javax.servlet.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="257" column="16" selection-start-line="257" selection-start-column="16" selection-end-line="257" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/blockUserList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/resources/locale.properties">
+      <provider selected="true" editor-type-id="ResourceBundle" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/HomeCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/AllAbonents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="52" column="86" selection-start-line="52" selection-start-column="86" selection-end-line="52" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="33" selection-start-line="18" selection-start-column="6" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/ChooseLanguageCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/tag/AbonentTableTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/chooseLangusge.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="42" column="119" selection-start-line="42" selection-start-column="119" selection-end-line="42" selection-end-column="119" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2866324" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />

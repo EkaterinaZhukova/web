@@ -8,7 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page errorPage="error.jsp" %>
-
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<fmt:setLocale value="${lang}"/>
+<fmt:setBundle basename="controller.resources.locale"/>
+<!DOCTYPE html>
+<html lang="${lang}">
 <head>
     <title>Bootstrap 4 Website Example</title>
     <meta charset="utf-8">
@@ -28,28 +32,28 @@
 <body>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">Main Page</a>
+    <a class="navbar-brand" href="${pageContext.request.contextPath}?command=home"><fmt:message key="MainMenu"/> </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="${pageContext.request.contextPath}?command=home">Get back</a>
+                <a class="nav-link" href="${pageContext.request.contextPath}?command=home"><fmt:message key="GetBack"/> </a>
             </li>
         </ul>
     </div>
 </nav>
 
 <div class="container" style="margin-top:30px">
-    <h1 class="display-4">Get list of all available services</h1>
+    <h1 class="display-4"><fmt:message key="GetListOfAllAvailableServices"/> </h1>
     <form name="availableServices" id="availableServices">
         <table class="table">
             <thead>
             <tr>
-                <th scope="col">ID</th>
-                <th scope="col">Name</th>
-                <th scope="col">Price</th>
+                <th scope="col"><fmt:message key="ID"/> </th>
+                <th scope="col"><fmt:message key="Name"/> </th>
+                <th scope="col"><fmt:message key="Price"/> </th>
             </tr>
             </thead>
             <tbody>

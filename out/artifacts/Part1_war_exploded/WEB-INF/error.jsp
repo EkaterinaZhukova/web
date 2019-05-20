@@ -9,8 +9,11 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page errorPage="error.jsp" %>
 
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<fmt:setLocale value="${lang}"/>
+<fmt:setBundle basename="controller.resources.locale"/>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="${lang}">
 <head>
     <title>Bootstrap 4 Website Example</title>
     <meta charset="utf-8">
@@ -32,7 +35,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 text-center">
-                <span class="display-1 d-block">Something went wrong...(</span>
+                <span class="display-1 d-block"><fmt:message key="SomethingWentWrong"/> </span>
                 <div class="mb-4 lead">${error}</div>
                 <%--<a href=href="${pageContext.request.contextPath}?command=home" class="btn btn-link">Back to Home</a>--%>
             </div>

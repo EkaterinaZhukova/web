@@ -9,7 +9,10 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page errorPage="error.jsp" %>
 
-
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<fmt:setLocale value="${lang}"/>
+<fmt:setBundle basename="controller.resources.locale"/>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Bootstrap 4 Website Example</title>
@@ -30,31 +33,31 @@
 <body>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">Main Page</a>
+    <a class="navbar-brand" href="${pageContext.request.contextPath}?command=home"><fmt:message key="MainMenu"/> </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="${pageContext.request.contextPath}?command=home">Get back</a>
+                <a class="nav-link" href="${pageContext.request.contextPath}?command=home"><fmt:message key="GetBack"/> </a>
             </li>
         </ul>
     </div>
 </nav>
 
 <div class="container" style="margin-top:30px">
-    <h1 class="display-4">Get list of all abonents</h1>
+    <h1 class="display-4"><fmt:message key="AllAbonents"/> </h1>
 
     <table class="table">
         <thead>
         <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Name</th>
-            <th scope="col">Surname</th>
-            <th scope="col">Phone</th>
-            <th scope="col">Is blocked?</th>
-            <th scope="col">Unblock</th>
+            <th scope="col"><fmt:message key="ID"/></th>
+            <th scope="col"><fmt:message key="Name"/></th>
+            <th scope="col"><fmt:message key="Surname"/></th>
+            <th scope="col"><fmt:message key="Phone"/></th>
+            <th scope="col"><fmt:message key="IsBlocked"/></th>
+            <th scope="col"><fmt:message key="Unblock"/></th>
         </tr>
         </thead>
         <tbody>
@@ -65,13 +68,13 @@
                 <td>${abonent.getSurname()}</td>
                 <td>${abonent.getPhone()}</td>
                 <c:if test="${abonent.isBlocked() == 1}">
-                    <td>Yes</td>
+                    <td><fmt:message key="Yes"/> </td>
                 </c:if>
                 <c:if test="${abonent.isBlocked() == 0}">
-                    <td>No</td>
+                    <td><fmt:message key="No"/> </td>
                 </c:if>
                 <td>
-                    <a href="${pageContext.request.contextPath}?command=unblock&name=${abonent.getName()}&surname=${abonent.getSurname()}">Unblock user</a>
+                    <a href="${pageContext.request.contextPath}?command=unblock&name=${abonent.getName()}&surname=${abonent.getSurname()}"> <fmt:message key="UnblockUser"/> </a>
                 </td>
             </tr>
         </c:forEach>
