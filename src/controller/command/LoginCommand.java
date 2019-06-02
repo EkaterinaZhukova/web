@@ -51,6 +51,8 @@ public class LoginCommand implements Command {
         String phone = request.getParameter(Parameters.phone);
         if (surName.equals(Parameters.admin) &&  phone.equals(Parameters.adminPassword)) {
             user.setAdmin(true);
+            user.name = Parameters.admin;
+            user.phone = Parameters.adminPassword;
             session.setAttribute(Parameters.userType, Parameters.admin);
         } else {
             Abonent ab = abonentDAO.getUserWithSurname(surName, phone);
@@ -62,7 +64,8 @@ public class LoginCommand implements Command {
                 user.setAbonent(true);
                 session.setAttribute(Parameters.userType, surName);
                 session.setAttribute(Parameters.abonent, ab);
-                user.abonentEntity = ab;
+                user.name = ab.getSurname();
+                user.phone = ab.getPhone();
             }
         }
         session.setAttribute(Parameters.user, user);

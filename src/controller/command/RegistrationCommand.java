@@ -82,7 +82,6 @@ public class RegistrationCommand implements Command{
             session.setAttribute(Parameters.userType, surname);
             session.setAttribute(Parameters.abonent, newAbonent);
             session.setAttribute(Parameters.user, user);
-            user.abonentEntity = newAbonent;
 
         }
         catch (DAOException ex) {

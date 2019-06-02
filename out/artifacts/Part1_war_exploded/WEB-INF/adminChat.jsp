@@ -1,13 +1,47 @@
 <%--
   Created by IntelliJ IDEA.
   User: ekaterina
-  Date: 4/19/19
-  Time: 11:31 PM
+  Date: 6/2/19
+  Time: 4:24 PM
   To change this template use File | Settings | File Templates.
 --%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page errorPage="error.jsp" %>
+
+
+<style>
+
+    .chat-elements p {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .chat-container {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 5px;
+        overflow: auto;
+    }
+
+    .chat-msg {
+        max-width: 60%;
+        padding: 5px;
+        font-size: 14px;
+        background: #f3f5f7;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        display: table;
+    }
+
+    .chat-input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+</style>
+
 
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <fmt:setLocale value="${lang}"/>
@@ -30,9 +64,7 @@
     </style>
 </head>
 <body>
-<c:if test="${user.isAbonent()}">
-    <%@include file="clientChat.jsp"%>
-</c:if>
+
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <a class="navbar-brand" href="${pageContext.request.contextPath}?command=home"><fmt:message key="MainMenu"/></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -61,9 +93,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="${pageContext.request.contextPath}?command=unblockList"><fmt:message key="UnblockUser"/> </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="${pageContext.request.contextPath}?command=adminChat"><fmt:message key="chat"/> </a>
-                </li>
             </c:if>
 
         </ul>
@@ -86,11 +115,73 @@
     </div>
 </nav>
 
+
 <div class="container" style="margin-top:30px">
-    <h1 class="display-4"><fmt:message key="TelephoneStation"/> </h1>
-    <p class="lead"><fmt:message key="Hello"/> </p>
-    <p class="lead"><fmt:message key="ThisIsATelephoneStationWebSite"/> </p>
+    <div class="card card-main">
+        <div class="chat-elements">
+            <div class="chat-container"></div>
+            <select class="form-control" style="margin-bottom: 5px" id="selected-user">
+                <c:forEach items="${abonents}" var="abonents">
+                    <option>${abonents.getSurname()} ${abonents.getPhone()} </option>
+                </c:forEach>
+            </select>
+            <input type="text" id="send-msg" class="form-control chat-input"/>
+            <input id="send-btn" type="button" onclick="sendMessage()" value="<fmt:message key="Send"/>"
+                   class="btn btn-sm btn-primary"/>
+        </div>
+    </div>
 </div>
 </body>
+<script>
+    let websocket;
 
+    function init() {
+        websocket = new WebSocket('ws://localhost:8080/Part1_war_exploded/chat');
+        websocket.onopen = function (event) {
+            websocketOpen(event);
+        };
+        websocket.onmessage = function (event) {
+            websocketMessage(event);
+        };
+        websocket.onerror = function (event) {
+            websocketError(event);
+        };
+    }
+
+    function websocketOpen(event) {
+        console.log("webSocketOpen invoked");
+        websocket.send('<c:out value='${user.getName()}'/> ' + '<c:out value='${user.getPhone()}'/> ');
+    }
+
+    function websocketMessage(event) {
+        console.log("websocketMessage invoked");
+        let msg = document.createElement('div');
+        msg.setAttribute('class', 'chat-msg');
+        msg.innerText = event.data;
+        document.getElementsByClassName('chat-container')[0].appendChild(msg);
+    }
+
+    function websocketError(event) {
+        console.log("websocketError invoked");
+    }
+
+    function sendMessage() {
+        let msg = document.getElementById('send-msg');
+        let sent = document.createElement('div');
+        sent.setAttribute('class', 'chat-msg');
+        sent.setAttribute('style', 'background: #d5e8fa; margin-left: auto; margin-right: 0;');
+        sent.innerText = document.getElementById('selected-user').value + ': ' + msg.value;
+        document.getElementsByClassName('chat-container')[0].appendChild(sent);
+        websocket.send(document.getElementById('selected-user').value + ': ' + msg.value);
+        msg.value = "";
+    }
+
+    function closeConnection() {
+        console.log("websocketClose invoked");
+        websocket.close();
+    }
+
+    window.addEventListener("load", init);
+    window.addEventListener("unload", closeConnection)
+</script>
 </html>

@@ -60,7 +60,8 @@ public class MainServlet extends HttpServlet {
                 new LoginCommand(abonentDAO, accountDAO, serviceDAO),
                 new LogoutCommand(abonentDAO, accountDAO, serviceDAO),
                 new RegistrationCommand(abonentDAO, accountDAO, serviceDAO),
-                new ChooseLanguageCommand(abonentDAO, accountDAO, serviceDAO)
+                new ChooseLanguageCommand(abonentDAO, accountDAO, serviceDAO),
+                new AdminChatCommand(abonentDAO, accountDAO, serviceDAO)
         };
         for (Command c : commands) {
             this.commands.put(c.getPattern(), c);

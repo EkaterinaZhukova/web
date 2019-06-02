@@ -1,7 +1,18 @@
 package model;
 
 public class User {
-    public Abonent abonentEntity;
+
+    public String name;
+
+    public String phone;
+
+    public String getName() {
+        return name;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
 
     private Boolean admin;
 
@@ -42,5 +53,22 @@ public class User {
         this.guest = guest;
         this.abonent = false;
         this.guest = false;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (!(obj instanceof User)) return false;
+        User user = (User) obj;
+        if (this.abonent == user.abonent) {
+            if (this.guest == user.guest) {
+                if (this.admin == user.admin) {
+                    if (user.abonent || user.admin) {
+                        return this.name.equals(user.name) && this.phone.equals(user.phone);
+                    }
+                }
+            }
+        }
+        return false;
     }
 }

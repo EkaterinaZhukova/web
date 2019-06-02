@@ -30,7 +30,9 @@
     </style>
 </head>
 <body>
-
+<c:if test="${user.isAbonent()}">
+    <%@include file="clientChat.jsp"%>
+</c:if>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <a class="navbar-brand" href="${pageContext.request.contextPath}?command=home"><fmt:message key="MainMenu"/></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -58,6 +60,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="${pageContext.request.contextPath}?command=unblockList"><fmt:message key="UnblockUser"/> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="${pageContext.request.contextPath}?command=adminChat"><fmt:message key="chat"/> </a>
                 </li>
             </c:if>
 
