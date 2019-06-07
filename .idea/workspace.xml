@@ -7,37 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ae23a1f-9fb3-48f9-99f0-f2abaf37dcf3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/java_websocket_1_3_0_sources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_websocket_api_1_0_rc4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/ChatEndPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/command/AdminChatCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/adminChat.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/clientChat.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Part1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/MainServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/command/LoginCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/command/LoginCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/command/RegistrationCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/command/RegistrationCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/command/tag/AbonentTableTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/command/tag/AbonentTableTag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/filter/LogingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/filter/LogingFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/filter/RegisterFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/controller/filter/RegisterFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/classes/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Part1_war_exploded/WEB-INF/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Part1/controller/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/controller/MainServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Part1/controller/command/LoginCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/controller/command/LoginCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Part1/controller/command/RegistrationCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/controller/command/RegistrationCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Part1/controller/command/tag/AbonentTableTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/controller/command/tag/AbonentTableTag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Part1/controller/filter/LogingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/controller/filter/LogingFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Part1/controller/filter/RegisterFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/controller/filter/RegisterFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Part1/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part1/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MainServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/command/LoginCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/command/LoginCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/command/RegistrationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/command/RegistrationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/resources/locale.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/resources/locale.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/resources/locale_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/resources/locale_en.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/resources/locale_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/resources/locale_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/command/AdminChatCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/command/AdminChatCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/JSPPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/JSPPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/adminChat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/adminChat.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/clientChat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/clientChat.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -151,22 +125,22 @@
     <session id="-81914346">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.2" value="6" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="150" />
-          <entry key="jsp" value="66" />
+          <entry key="java" value="153" />
+          <entry key="jsp" value="68" />
           <entry key="locale" value="4" />
           <entry key="properties" value="12" />
           <entry key="tld" value="4" />
@@ -176,8 +150,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="150" />
-          <entry key="JSP" value="66" />
+          <entry key="JAVA" value="153" />
+          <entry key="JSP" value="68" />
           <entry key="Properties" value="12" />
           <entry key="ResourceBundle" value="4" />
           <entry key="XML" value="12" />
@@ -185,16 +159,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4113" />
-          <entry key="jsp" value="1364" />
+          <entry key="java" value="4155" />
+          <entry key="jsp" value="1365" />
           <entry key="tld" value="53" />
           <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4113" />
-          <entry key="JSP" value="1364" />
+          <entry key="JAVA" value="4155" />
+          <entry key="JSP" value="1365" />
           <entry key="XML" value="66" />
         </counts>
       </usages-collector>
@@ -205,41 +179,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/adminChat.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="128" column="100" selection-start-line="128" selection-start-column="100" selection-end-line="128" selection-end-column="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="-1508">
+              <caret line="72" column="63" selection-start-line="72" selection-start-column="63" selection-end-line="72" selection-end-column="63" />
               <folding>
-                <element signature="e#116#117#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
+                <element signature="n#style#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp">
+        <entry file="file://$PROJECT_DIR$/src/controller/command/HomeCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+            <state relative-caret-position="322">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld/AbonentTableTag.tld">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/error.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="521">
+              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -247,8 +209,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
-              <caret line="64" column="122" selection-start-line="64" selection-start-column="122" selection-end-line="64" selection-end-column="122" />
+            <state relative-caret-position="184">
+              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -256,8 +221,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/clientChat.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="120" column="42" selection-start-line="120" selection-start-column="42" selection-end-line="120" selection-end-column="42" />
+            <state relative-caret-position="403">
+              <caret line="93" column="10" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#html#0;n#!!top" />
               </folding>
@@ -265,21 +230,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/controller/resources/locale.properties">
-          <provider selected="true" editor-type-id="ResourceBundle" />
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/command/AdminChatCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/JSPPath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controller/ChatEndPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="-595">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -290,8 +263,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Abonent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="98" column="31" lean-forward="true" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+            <state relative-caret-position="1386">
+              <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -361,7 +334,6 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/error.jsp" />
         <option value="$PROJECT_DIR$/src/controller/command/Constants/Parameters.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/allServicesAvailable.jsp" />
-        <option value="$PROJECT_DIR$/src/model/JSPPath.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/registration.jsp" />
         <option value="$PROJECT_DIR$/src/controller/command/PayServiceCommand.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/yourServices.jsp" />
@@ -376,14 +348,15 @@
         <option value="$PROJECT_DIR$/src/controller/filter/RegisterFilter.java" />
         <option value="$PROJECT_DIR$/src/controller/MainServlet.java" />
         <option value="$PROJECT_DIR$/src/controller/command/RegistrationCommand.java" />
-        <option value="$PROJECT_DIR$/src/controller/command/AdminChatCommand.java" />
         <option value="$PROJECT_DIR$/src/controller/command/LoginCommand.java" />
         <option value="$PROJECT_DIR$/src/controller/ChatEndPoint.java" />
         <option value="$PROJECT_DIR$/src/model/User.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/home.jsp" />
+        <option value="$PROJECT_DIR$/src/controller/resources/locale.properties" />
         <option value="$PROJECT_DIR$/web/WEB-INF/adminChat.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/clientChat.jsp" />
-        <option value="$PROJECT_DIR$/src/controller/resources/locale.properties" />
+        <option value="$PROJECT_DIR$/src/model/JSPPath.java" />
+        <option value="$PROJECT_DIR$/src/controller/command/AdminChatCommand.java" />
       </list>
     </option>
   </component>
@@ -446,8 +419,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -537,6 +508,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -547,7 +520,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559510565538" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559592581320" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -710,12 +683,13 @@
       <workItem from="1559493778986" duration="3698000" />
       <workItem from="1559501881750" duration="2352000" />
       <workItem from="1559504322646" duration="30000" />
-      <workItem from="1559504443587" duration="2317000" />
+      <workItem from="1559504443587" duration="2500000" />
+      <workItem from="1559574808513" duration="7888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106505000" />
+    <option name="totallyTimeSpent" value="114576000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -728,9 +702,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="943" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6445672" visible="true" weight="0.1898657" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6445672" visible="true" weight="0.1916972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -741,7 +714,7 @@
       <window_info id="Persistence" order="8" sideWeight="0.35543278" side_tool="true" weight="0.31533208" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49906892" visible="true" weight="0.07050529" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49906892" weight="0.13748531" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49968964" weight="0.3584019" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -847,24 +820,6 @@
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/controller/ChatEndPoint.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/controller/ChatEndPoint.java</url>
-          <line>88</line>
-          <properties />
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/controller/ChatEndPoint.java</url>
-          <line>97</line>
-          <properties />
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
         <line-breakpoint type="javascript">
           <url>file://$PROJECT_DIR$/web/WEB-INF/js/scriptDOM.js</url>
           <line>1</line>
@@ -915,13 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="257" column="16" selection-start-line="257" selection-start-column="16" selection-end-line="257" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/JSPPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1005,13 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/HomeCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/command/AllServiceListCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-112">
@@ -1064,9 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1149,13 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/command/AdminChatCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/command/LoginCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -1173,13 +1104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/loginPage.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
@@ -1194,23 +1118,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/blockUserList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="49" column="47" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Abonent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="98" column="31" lean-forward="true" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
+        <state relative-caret-position="1080">
           <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="e#116#117#0" expanded="true" />
@@ -1223,7 +1133,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/allAbonents.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
+        <state relative-caret-position="846">
           <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
         </state>
       </provider>
@@ -1235,45 +1145,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/ChatEndPoint.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/resources/locale.properties">
+      <provider selected="true" editor-type-id="ResourceBundle" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Abonent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1386">
+          <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/blockUserList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="49" column="47" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/HomeCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="64" column="122" selection-start-line="64" selection-start-column="122" selection-end-line="64" selection-end-column="122" />
+        <state relative-caret-position="184">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/JSPPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/command/AdminChatCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/adminChat.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="128" column="100" selection-start-line="128" selection-start-column="100" selection-end-line="128" selection-end-column="100" />
+        <state relative-caret-position="-1508">
+          <caret line="72" column="63" selection-start-line="72" selection-start-column="63" selection-end-line="72" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/clientChat.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="120" column="42" selection-start-line="120" selection-start-column="42" selection-end-line="120" selection-end-column="42" />
+        <state relative-caret-position="403">
+          <caret line="93" column="10" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/resources/locale.properties">
-      <provider selected="true" editor-type-id="ResourceBundle" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+    <entry file="file://$PROJECT_DIR$/src/controller/ChatEndPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-595">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

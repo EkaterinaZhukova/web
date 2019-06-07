@@ -169,7 +169,7 @@
         let msg = document.getElementById('send-msg');
         let sent = document.createElement('div');
         sent.setAttribute('class', 'chat-msg');
-        sent.setAttribute('style', 'background: #d5e8fa; margin-left: auto; margin-right: 0;');
+        sent.setAttribute('style', 'background: #CCFFFF; margin-left: auto; margin-right: 0;');
         sent.innerText = document.getElementById('selected-user').value + ': ' + msg.value;
         document.getElementsByClassName('chat-container')[0].appendChild(sent);
         websocket.send(document.getElementById('selected-user').value + ': ' + msg.value);

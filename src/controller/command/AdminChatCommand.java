@@ -39,9 +39,9 @@ public class AdminChatCommand implements Command {
     public void doGet(HttpServletRequest request, HttpServletResponse response, ServletContext servletContext) throws ServletException, IOException {
         try {
             HttpSession session = request.getSession();
-            User user = (User) session.getAttribute("user");
+            User user = (User) session.getAttribute(Parameters.user);
             if (user.isAdmin()) {
-                RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/adminChat.jsp");
+                RequestDispatcher dispatcher = request.getRequestDispatcher(JSPPath.adminChat);
                 List<Abonent> abonents = abonentDAO.getAll();
                 request.setAttribute(Parameters.abonentsList, abonents);
                      request.setAttribute(Parameters.abonentsList, abonents);

@@ -9,4 +9,6 @@ public class JSPPath {
     public static final String unblockList = "/WEB-INF/unblockUserList.jsp";
     public static final String userServices = "/WEB-INF/yourServices.jsp";
     public static final String registration = "/WEB-INF/registration.jsp";
+    public static final String adminChat = "/WEB-INF/adminChat.jsp";
+
 }

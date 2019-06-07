@@ -59,7 +59,7 @@
     }
 </style>
 <div class="chat">
-    <img src="https://img.icons8.com/color/50/000000/speech-bubble-with-dots.png" onclick="chatClick(true)">
+    <img src="https://img.icons8.com/color/50/000000/facebook-messenger.png" onclick="chatClick(true)">
 </div>
 <script>
     function chatClick(ev) {
